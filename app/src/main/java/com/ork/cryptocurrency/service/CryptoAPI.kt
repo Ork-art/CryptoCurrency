@@ -13,5 +13,4 @@ interface CryptoAPI {
     @GET("ticker?key=601a17efe0e1cb5d2b88d7e6dfdf9a76b24abaa9")
     fun getData(): Observable<List<CryptoModel>>
 
-   // fun getData():Call<List<CryptoModel>>
 }
